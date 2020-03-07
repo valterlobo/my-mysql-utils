@@ -1,6 +1,6 @@
 
 SET @qtd = 0 ; 
-CALL  verificar_tabela_campo_valor("nome_tbl", "chave_tbl", "168" , @qtd  ) ;  
+CALL  verificar_tabela_campo_valor("nome_tbl", "fk_tbl", "168" , @qtd  ) ;  
 SELECT @qtd as quantidade; 
 
 
